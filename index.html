@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/theme.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script type="text/javascript" src="js/index.js"></script>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            background-color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul class="menu-list">
+            <li><a href="index.html">Check-in</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </header>
+    <div id="main-container">
+        <br>
+        <h1>Welcome</h1>
+        <h3>Please Check In</h3>
+        <div style="text-align: center;">
+            <form action="" id="form-checkin">
+                <input class="input-text" type="text" name="inputFirstName" id="inputFirstName"
+                    placeholder="First name">
+                <input class="input-text" type="text" name="inputLastName" id="inputLastName" placeholder="Last name">
+                <input class="input-text" type="text" name="inputNumber" id="inputNumber" placeholder="Phone ###-###-####">
+            </form>
+            <div style="text-align: center;">
+                <br>
+                <input id="btn-checkin" class="btn" type="button" value="Check in" form="form-checkin" onclick="checkIn()">
+            </div>
+        </div>
+        <br>
+        <div style="justify-content: center; display: flex;">
+            <table id="table-list" style="width:730px">
+                <colgroup>
+                    <col span="1" style="width: 25%;">
+                    <col span="1" style="width: 37.5%;">
+                    <col span="1" style="width: 37.5%;">
+                </colgroup>
+                <tr>
+                    <th>Arrived</th>
+                    <th>Name</th>
+                    <th>Phone number</th>
+                </tr>
+                <tr></tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
