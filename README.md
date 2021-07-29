@@ -1,6 +1,8 @@
 # ad-sba-html-css-javascript
 A simple web application that allows for users to check-in to a waitlist, fill out a contact form, and read an about page for a doctor's website.
+
 [GitHub](https://github.com/thedkhenry)
+
 [Demo](https://stupefied-shirley-e27897.netlify.app/)
 
 ## Technical requirements:
