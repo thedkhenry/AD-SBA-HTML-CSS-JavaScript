@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/theme.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <script type="text/javascript" src="js/contact.js"></script>
+</head>
+
+<body>
+    <header>
+        <ul class="menu-list">
+            <li><a href="index.html">Check-in</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </header>
+    <div id="main-container">
+        <br>
+        <h1>Get In Touch</h1>
+        <div class="card">
+            <div id="img-container">
+                <img src="https://cdn.dribbble.com/users/1081436/screenshots/4026839/untitled-3.jpg" alt="dr's photo">
+            </div>
+            <div id="form-container">
+                <form class="" id="form-contact">
+                    <div class="input-container"><input type="text" name="name" placeholder="Name" required></div>
+                    <div class="input-container"><input type="text" name="email" placeholder="Email" required></div>
+                    <div class="input-container">
+                        <select name="subject" id="select-subject" required>
+                            <option value="" disabled selected>Subject</option>
+                        </select>
+                    </div>
+                    <div class="input-container"><textarea name="message" placeholder="Message" required></textarea></div>
+                    <div class="input-container"><input id="btn-send" class="btn" type="submit" value="Send" form="form-contact" onclick=""></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
