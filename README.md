@@ -3,7 +3,7 @@ A simple web application that allows for users to check-in to a waitlist, fill o
 
 [GitHub](https://github.com/thedkhenry)
 
-[Demo](https://stupefied-shirley-e27897.netlify.app/)
+[Demo](https://ad-sba-html-css-javascript.netlify.app/)
 
 ## Technical requirements:
 ### HTML
